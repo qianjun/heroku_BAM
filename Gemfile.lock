@@ -151,7 +151,6 @@ DEPENDENCIES
   hpricot (= 0.8.4)
   iconv
   jquery-rails (= 2.1.0)
-  json (= 1.7.6)
   libv8 (~> 3.11.8.17)
   mechanize (= 2.0.1)
   mini_magick (= 3.5.0)
