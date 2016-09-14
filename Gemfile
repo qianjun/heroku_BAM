@@ -22,7 +22,6 @@ gem "toPinyin"
 group :assets do
   #gem 'sass-rails',   '~> 3.1.5.rc.2'
   #gem 'coffee-rails', '~> 3.1.1'
-  gem 'uglifier', '>= 1.0.3'
 end
 gem 'i18n','0.6.11'
 gem 'execjs', '1.4.0'
@@ -34,6 +33,7 @@ gem 'rack-cache','1.1'
 gem 'json', '1.7.6'
 gem 'mini_portile','0.6.0'
 gem 'nokogiri','1.6.2.1'
+gem 'uglifier','1.0.3'
 # group :production do
  # gem 'libv8', '~> 3.11.8.17'
  # gem 'therubyracer', :platform => :ruby
