@@ -23,20 +23,21 @@ group :assets do
   #gem 'sass-rails',   '~> 3.1.5.rc.2'
   #gem 'coffee-rails', '~> 3.1.1'
 end
-gem 'i18n','0.6.11'
-gem 'execjs', '1.4.0'
-gem 'jquery-rails', '2.1.0'
-gem 'spreadsheet', '0.6.5.5'
-gem 'remotipart', '~> 1.0'
+# gem 'i18n','0.6.11'
+gem 'execjs'
+gem 'jquery-rails'
+gem 'spreadsheet'
+gem 'remotipart'
 gem 'iconv'
-gem 'rack-cache','1.1'
-gem 'json', '1.7.6'
-gem 'mini_portile','0.6.0'
-gem 'nokogiri','1.6.2.1'
-gem 'uglifier','1.0.3'
+# gem 'rack-cache','1.1'
+# gem 'json', '1.7.6'
+# gem 'mini_portile','0.6.0'
+gem 'nokogiri','1.6.8'
+# gem 'uglifier','1.0.3'
 # group :production do
- # gem 'libv8', '~> 3.11.8.17'
- # gem 'therubyracer', :platform => :ruby
+
+ gem 'therubyracer', '0.12.1'
+  # gem 'libv8','3.11.8.17'
 #end
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -55,8 +56,8 @@ group :test do
   # Pretty printed test output
   gem 'turn', '0.8.2', :require => false
 end
-gem 'mechanize', '2.0.1'
-gem 'hpricot', '0.8.4'
+gem 'mechanize'
+gem 'hpricot'
 #gem "bullet", :group => "development"
 #group :development do
 #  gem "better_errors"
