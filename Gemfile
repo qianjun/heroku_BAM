@@ -24,7 +24,7 @@ group :assets do
   #gem 'coffee-rails', '~> 3.1.1'
   gem 'uglifier', '>= 1.0.3'
 end
-gem ’i18n’，0.6.11‘
+gem ’i18n’，'0.6.11‘
 gem 'execjs', '1.4.0'
 gem 'jquery-rails', '2.1.0'
 gem 'spreadsheet', '0.6.5.5'
