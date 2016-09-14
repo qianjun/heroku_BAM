@@ -30,7 +30,10 @@ gem 'jquery-rails', '2.1.0'
 gem 'spreadsheet', '0.6.5.5'
 gem 'remotipart', '~> 1.0'
 gem 'iconv'
-# gem 'json', '2.0.2'
+gem 'rack-cache','1.1'
+gem 'json', '1.7.6'
+gem 'mini_portile','0.6.0'
+gem 'nokogiri','1.6.2.1'
 # group :production do
  # gem 'libv8', '~> 3.11.8.17'
  # gem 'therubyracer', :platform => :ruby
@@ -42,8 +45,8 @@ gem 'iconv'
 # gem 'unicorn'
 
 # Deploy with Capistrano
-gem 'capistrano','~> 2.15.4'
-gem 'capistrano_colors', '~>0.5.5'
+# gem 'capistrano','~> 2.15.4'
+# gem 'capistrano_colors', '~>0.5.5'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
