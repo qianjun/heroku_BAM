@@ -34,12 +34,12 @@ development:
 #  password: comdo2012
 #  host: localhost
 #
-#production:
-#  adapter: mysql2
-#  encoding: utf8
-#  reconnect: false
-#  database: lantan_db
-#  pool: 5
-#  username: root
-#  password: comdo2012
-#  host: localhost
+production:
+ adapter: mysql2
+ encoding: utf8
+ reconnect: false
+ database: lantan_db
+ pool: 5
+ username: root
+ password: comdo2012
+ host: localhost
