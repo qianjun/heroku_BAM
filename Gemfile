@@ -3,7 +3,7 @@
   Encoding.default_internal = Encoding::UTF_8
 end 
 source 'https://rubygems.org/'
-
+ruby '2.1.3'
 gem 'rails', '3.1.2'
 
 # Bundle edge Rails instead:
