@@ -22,6 +22,7 @@ gem "toPinyin"
 group :assets do
   #gem 'sass-rails',   '~> 3.1.5.rc.2'
   #gem 'coffee-rails', '~> 3.1.1'
+  gem 'uglifier'
 end
 # gem 'i18n','0.6.11'
 gem 'execjs'

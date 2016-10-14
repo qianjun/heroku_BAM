@@ -129,6 +129,8 @@ GEM
     turn (0.8.2)
       ansi (>= 1.2.2)
     tzinfo (0.3.51)
+    uglifier (3.0.2)
+      execjs (>= 0.3.0, < 3)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.2)
@@ -158,4 +160,5 @@ DEPENDENCIES
   therubyracer (= 0.12.1)
   toPinyin
   turn (= 0.8.2)
+  uglifier
   will_paginate (= 3.0.3)
